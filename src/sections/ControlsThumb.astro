@@ -1,0 +1,11 @@
+---
+import Control from '../components/Control.astro'
+import { thumb } from '../services/controls.config.json'
+---
+
+<section
+  data-id="controls-thumb"
+  class="md:col-start-1 md:col-end-3 p-5 bg-dark-navy rounded-lg flex flex-col gap-2"
+>
+  {thumb.map((elem) => <Control config={elem} />)}
+</section>

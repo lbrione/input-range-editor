@@ -1,0 +1,11 @@
+---
+import Control from '../components/Control.astro'
+import { track } from '../services/controls.config.json'
+---
+
+<section
+  data-id="controls-track"
+  class="md:col-start-3 md:col-end-5 bg-dark-navy rounded-lg p-5 flex flex-col gap-2"
+>
+  {track.map((elem) => <Control config={elem} />)}
+</section>

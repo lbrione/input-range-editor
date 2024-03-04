@@ -1,0 +1,22 @@
+{
+  "thumb": [
+    {
+      "name": "Height",
+      "type": "range",
+      "value": "50"
+    },
+    {
+      "name": "Width",
+      "type": "color",
+      "value": "50"
+    }
+  ],
+
+  "track": [
+    {
+      "name": "Width",
+      "type": "color",
+      "value": "50"
+    }
+  ]
+}
